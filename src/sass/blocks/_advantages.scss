@@ -1,3 +1,6 @@
+.title{
+  text-align: center;
+}
 .advantages {
   padding: 70px 0 80px 0;
   background-color: #f6f6f6;
@@ -5,9 +8,6 @@
     margin-top: 65px;
     display: flex;
     justify-content: space-between;
-  }
-  &__title{
-    text-align: center;
   }
   &__item {
     display: flex;
