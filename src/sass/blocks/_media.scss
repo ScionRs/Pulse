@@ -7,6 +7,9 @@
   .promo__wrapper{
     margin-right: 20px;
   }
+  .consultation{
+    padding: 100px 20px 92px 20px;
+  }
 }
 
 @media (max-width: 767px){
@@ -30,18 +33,31 @@
     margin-top: 10px;
   }
   .promo__header{
-    font-size: 42px;
+    font-size: 30px;
+    padding: 0 20px;
   }
-  .promo_subheader{
+  .promo__subheader{
     font-size: 20px;
+    padding: 0 20px;
   }
   .promo__icons{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
+  .button_main{
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 63px;
+  }
   .advantages__wrapper{
     flex-direction: column;
     align-items: center;
+  }
+  .feed-form{
+    width: 250px;
+  }
+  .title_left{
+    font-size: 30px;
   }
 }
