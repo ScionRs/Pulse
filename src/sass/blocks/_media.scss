@@ -10,6 +10,9 @@
   .consultation{
     padding: 100px 20px 92px 20px;
   }
+  .carousel__inner{
+    width: 760px;
+  }
 }
 
 @media (max-width: 767px){
@@ -22,6 +25,12 @@
   }
   .header__official span{
     font-size: 15px;
+  }
+  .carousel__inner{
+    width: 570px;
+    img{
+      width: 100%;
+    }
   }
 }
 
@@ -59,5 +68,11 @@
   }
   .title_left{
     font-size: 30px;
+  }
+  .carousel__inner{
+    width: 300px;
+    img{
+      width: 100%;
+    }
   }
 }
