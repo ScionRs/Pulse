@@ -32,6 +32,15 @@
       width: 100%;
     }
   }
+  .catalog-item{
+    width: 250px;
+    &__price{
+      font-size: 16px;
+    }
+  }
+  .button_mini{
+    width: 100px;
+  }
 }
 
 @media (max-width: 575px){
@@ -72,6 +81,19 @@
   .carousel__inner{
     width: 300px;
     img{
+      width: 100%;
+    }
+  }
+  .catalog{
+    &__tabs{
+      flex-wrap: wrap;
+    }
+    &__tab{
+      width: 80%;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    &-item{
       width: 100%;
     }
   }
