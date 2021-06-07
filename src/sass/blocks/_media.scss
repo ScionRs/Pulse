@@ -38,8 +38,19 @@
       font-size: 16px;
     }
   }
+  .catalog__tab{
+    width: 200px;
+  }
   .button_mini{
     width: 100px;
+  }
+  .feed{
+    &__img{
+      width: auto;
+    }
+    &__text{
+      margin-left: 30px;
+    }
   }
 }
 
@@ -67,6 +78,7 @@
     width: 180px;
     height: 40px;
     margin-top: 10px;
+    font-size: 12px;
   }
   .button_main{
     width: 250px;
@@ -100,6 +112,23 @@
     }
     &-item{
       width: 100%;
+    }
+  }
+  .feed{
+    &__item{
+      flex-wrap: wrap;
+    }
+    &__img{
+      display: block;
+      margin: 0 auto;
+    }
+    &__text{
+      text-align: center;
+      margin-left: 0;
+      padding: 0 15px;
+    }
+    &__subtitle{
+      margin-top: 10px;
     }
   }
 }
