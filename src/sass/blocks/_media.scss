@@ -13,6 +13,10 @@
   .carousel__inner{
     width: 760px;
   }
+  .footer__info{
+    left: 35%;
+    width: 350px;
+  }
 }
 
 @media (max-width: 767px){
@@ -39,7 +43,7 @@
     }
   }
   .catalog__tab{
-    width: 200px;
+    width: 180px;
   }
   .button_mini{
     width: 100px;
@@ -50,6 +54,21 @@
     }
     &__text{
       margin-left: 30px;
+    }
+  }
+  .footer{
+    &__info{
+      left: 35%;
+      width: 300px;
+    }
+    &__social-item{
+      width: 0;
+      height: 0;
+      border-radius: 0;
+      padding: 20px;
+      &-img{
+        height: 20px;
+      }
     }
   }
 }
@@ -130,5 +149,8 @@
     &__subtitle{
       margin-top: 10px;
     }
+  }
+  .footer__info{
+    display: none;
   }
 }
