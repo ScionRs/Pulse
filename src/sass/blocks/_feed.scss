@@ -1,0 +1,26 @@
+.feed{
+  padding: 40px 0 70px 0;
+  &__item{
+    display: flex;
+    margin-top: 55px;
+  }
+  &__img {
+    width: 169px;
+    height: 169px;
+  }
+  &__text{
+    margin-left: 50px;
+  }
+  &__subtitle{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__count{
+    margin-top: 20px;
+    color: $darkgray;
+  }
+  &__descr{
+    margin-top: 25px;
+    font-size: 16px;
+  }
+}
